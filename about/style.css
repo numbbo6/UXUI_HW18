@@ -179,4 +179,10 @@ section button {
 .footer-text{
     color: #E45300;
 }
-  
+
+/* 当屏幕宽度小于等于 768px 时应用以下样式 */
+@media screen and (max-width: 768px) {
+    .works p {
+      font-size: 12px;
+    }
+  }  
